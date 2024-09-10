@@ -6,4 +6,4 @@
 - Nếu các bạn sử dụng vui lòng chú ý.
 
 **Quan trọng:**
-- Tôi sẽ không chịu trách nhiệm cho việc sử dụng sai mục đích.
+- Tôi sẽ không chịu trách nhiệm cho việc các bạn sử dụng mã trong repository này sai mục đích.
