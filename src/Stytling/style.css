@@ -41,6 +41,10 @@
     font-weight: 600;
 }
 
+.nav-item-2-container-1-btn:hover {
+    cursor: pointer;
+}
+
 .nav-item-2-container-2-btn {
     border-radius: 35px;
     padding: 10px 15px 10px 15px;
@@ -48,4 +52,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 600;
+}
+
+.nav-item-2-container-2-btn:hover {
+    cursor: pointer;
 }
