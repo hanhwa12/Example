@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    display: flex;
+    /* justify-content: space-between; Cách 1 tui thường không dùng, không khuyến khích nếu có nhiều hơn 2 container */
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item-1 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-item-1-img {
+    width: 100px;
+}
+
+.nav-item-2 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.nav-item-2-container-1-btn {
+    border-radius: 35px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    background-color: #6439FF;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-item-2-container-2-btn {
+    border-radius: 35px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
