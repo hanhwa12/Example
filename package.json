@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/style.css -o ./src/css/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bảo Phạm",
+  "license": "ISC",
+  "description": "Đây là dự án ví dụ về việc sử dụng flexbox đơn giản cho thanh header trong CSS.",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}

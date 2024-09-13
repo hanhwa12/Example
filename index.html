@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ví dụ flex</title>
-    <link rel="shortcut icon" href="./src/images/GoogleFavicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/assets/images/GoogleIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/tailwind.css">
+    <script src="./src/scripts/index.js"></script>
 </head>
 <body>
     <section class="navigation">
@@ -14,16 +15,30 @@
         </div>
         <div class="nav-item-2">
             <div class="nav-item-2-container-1">
-                <button class="nav-item-2-container-1-btn">
-                    Sign In
+                <button class="nav-item-2-container-1-btn shadow-md">
+                    <a class="nav-item-2-container-1-btn-ref" href="./src/pages/Authentication/SignIn.html">Sign In</a>
                 </button>
             </div>
             <div class="nav-item-2-container-2">
-                <button class="nav-item-2-container-2-btn">
-                    Creete account
+                <button class="nav-item-2-container-2-btn shadow-md bg-blue-500 text-white">
+                    Create account
                 </button>
             </div>
         </div>
     </section>
+    <div class="flex-container">
+        <div>
+            <input type="radio" name="fav_language" id="html" value="HTML">
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <input type="radio" name="fav_language" id="css" value="CSS">
+            <label for="css">CSS</label>
+        </div>
+        <div>
+            <input type="radio" name="fav_language" id="javascript" value="JS">
+            <label for="javascript">JS</label>
+        </div>
+    </div>
 </body>
 </html>

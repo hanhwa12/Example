@@ -7,3 +7,8 @@
 
 **Quan trọng:**
 - Tôi sẽ không chịu trách nhiệm cho việc các bạn sử dụng mã trong repository này sai mục đích.
+
+**Cách sử dụng:**
+- Sử dụng lệnh npm install để cài đặt các package cần thiết.
+- Sử dụng lệnh npm run build nếu cần thêm các thuộc tính mà tailwind css không có.
+- Dùng extension Live Server để chạy server và xem kết quả.
